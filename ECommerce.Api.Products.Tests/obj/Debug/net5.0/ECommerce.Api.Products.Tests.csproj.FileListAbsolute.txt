@@ -1,4 +1,9 @@
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.csproj.AssemblyReference.cache
+C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.AssemblyInfoInputs.cache
+C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.AssemblyInfo.cs
+C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.csproj.CoreCompileInputs.cache
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\testhost.dll
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\ECommerce.Api.Products.deps.json
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\ECommerce.Api.Products.runtimeconfig.json
@@ -107,11 +112,6 @@ C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\ECommerce.Api.Products.dll
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\bin\Debug\net5.0\ECommerce.Api.Products.pdb
-C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.csproj.AssemblyReference.cache
-C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.AssemblyInfoInputs.cache
-C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.AssemblyInfo.cs
-C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.csproj.CoreCompileInputs.cache
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.csproj.CopyComplete
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\ECommerce.Api.Products.Tests.dll
 C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products.Tests\obj\Debug\net5.0\refint\ECommerce.Api.Products.Tests.dll

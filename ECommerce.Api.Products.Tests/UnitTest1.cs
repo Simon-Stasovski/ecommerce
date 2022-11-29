@@ -1,11 +1,11 @@
-using System;
-using System.Threading.Tasks;
 using AutoMapper;
 using ECommerce.Api.Products.Db;
 using ECommerce.Api.Products.Profiles;
 using ECommerce.Api.Products.Providers;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace ECommerce.Api.Products.Tests
