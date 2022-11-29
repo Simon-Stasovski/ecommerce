@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bLmRpTUizVjs3IDIFFFJrnjhciUfQcxRo6n0J2qesFaWqPC96Yacrbftj+9w44ZIpVOj2lRffn6tE9waiq+U3Q==",
+  "dgSpecHash": "AU+1VAEYWw9JmjMcurS7hoZdzLrD+3CWhUmUVn9BCRa5GXh3KGs7ieapnQH9ovKQcWF0cjwr8fcijatyng4zeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\simon\\Documents\\ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
   "expectedPackageFiles": [
@@ -110,14 +110,9 @@
     "C:\\Users\\simon\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\simon\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "C:\\Users\\simon\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }
