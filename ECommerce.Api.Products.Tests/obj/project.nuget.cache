@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AU+1VAEYWw9JmjMcurS7hoZdzLrD+3CWhUmUVn9BCRa5GXh3KGs7ieapnQH9ovKQcWF0cjwr8fcijatyng4zeQ==",
+  "dgSpecHash": "X6lCmX3k6ClpAHmb7CL0k/rWsOTjZp7lP2cZhrr5mF+T7qKbgjqeJyA2JAtvyw2qTXrv0X/lCl+tEVOGt+eycg==",
   "success": true,
   "projectFilePath": "C:\\Users\\simon\\Documents\\ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",

@@ -1,0 +1,137 @@
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\simon\Documents\ecommerce
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Customers
+      target: base
+    container_name: ECommerce.Api.Customers
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: ecommerceapicustomers:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/ECommerce.Api.Customers.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 6002
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\simon\Documents\ecommerce\ECommerce.Api.Customers:/app:rw
+    - C:\Users\simon\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\simon\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\simon\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\simon\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\simon\Documents\ecommerce:/src:rw
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\simon\Documents\ecommerce
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Orders
+      target: base
+    container_name: ECommerce.Api.Orders
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: ecommerceapiorders:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/ECommerce.Api.Orders.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 6603
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\simon\Documents\ecommerce\ECommerce.Api.Orders:/app:rw
+    - C:\Users\simon\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\simon\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\simon\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\simon\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\simon\Documents\ecommerce:/src:rw
+  ecommerce.api.products:
+    build:
+      context: C:\Users\simon\Documents\ecommerce
+      dockerfile: ECommerce.Api.Products\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Products
+      target: base
+    container_name: ECommerce.Api.Products
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: ecommerceapiproducts:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/ECommerce.Api.Products.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 6001
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\simon\Documents\ecommerce\ECommerce.Api.Products:/app:rw
+    - C:\Users\simon\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\simon\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\simon\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\simon\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\simon\Documents\ecommerce:/src:rw
+  ecommerce.api.search:
+    build:
+      context: C:\Users\simon\Documents\ecommerce
+      dockerfile: ECommerce.Api.Search\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Search
+      target: base
+    container_name: ECommerce.Api.Search
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+      Services__Customers: http://ecommerce.api.customers
+      Services__Orders: http://ecommerce.api.orders
+      Services__Products: http://ecommerce.api.products
+    image: ecommerceapisearch:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/ECommerce.Api.Search.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 6604
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\simon\Documents\ecommerce\ECommerce.Api.Search:/app:rw
+    - C:\Users\simon\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\simon\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\simon\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\simon\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\simon\Documents\ecommerce:/src:rw
+version: '3.4'

@@ -1,13 +1,4 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:32154",
-      "sslPort": 0
-    }
-  },
+{
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
@@ -19,13 +10,28 @@
     },
     "ECommerce.Api.Customers": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "launchBrowser": true,
       "launchUrl": "api/customers",
-      "applicationUrl": "http://localhost:32154",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:32154"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/customers",
+      "publishAllPorts": true
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:32154",
+      "sslPort": 0
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I00kFZ/4dUt7+2qi/2gEAVb0dOZC2aLcqcpYaa12o2u8+CJytD6hP4Oo2YfiirIBQ+nxoi4eGMDLqy26BFIeNw==",
+  "dgSpecHash": "tBF4cyXw6J427ksw3l2QgHif3zqHsw1UWlVZ6uL4EzAidUYtUaOTl4wP51JjEq+FKqwrhcxB05qsYINcOZZ4tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\simon\\Documents\\ecommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.31\\microsoft.extensions.logging.abstractions.3.1.31.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
